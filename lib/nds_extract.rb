@@ -55,7 +55,6 @@ def total_gross(source)
     director_names = director_names[index]
     grand_total += directors_grand_total[director_names]
     i += 1 
-
 end
 grand_total
 end
