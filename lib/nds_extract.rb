@@ -53,8 +53,7 @@ def total_gross(source)
     
 
 end
-
-  
+grand_total
 end
 
 
