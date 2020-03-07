@@ -47,13 +47,13 @@ def total_gross(source)
   # return the total
   
   directors_grand_totals = directors_totals(source)
-  directors_names = list_of_directors(source)
+  dir_names = list_of_directors(source)
   i = 0
   total = 0
 
-  while i < directors_names.length do
-    directors_names = directors_names[i]
-    total += directors_grand_totals[directors_names]
+  while i < dir_names.length do
+    dir_name = dir_names[i]
+    total += directors_grand_totals[dir_name]
     i += 1
   end
   total
