@@ -50,7 +50,7 @@ def total_gross(source)
   index = 0 
   
   while index < source.length do
-    
+    grand_total += directors_totals(d)
 
 end
 grand_total
