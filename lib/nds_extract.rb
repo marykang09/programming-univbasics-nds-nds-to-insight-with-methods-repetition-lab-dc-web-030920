@@ -47,6 +47,8 @@ def total_gross(source)
   # return the total
   grand_total = 0 
   index = 0 
+  
+  
 end
 
 
