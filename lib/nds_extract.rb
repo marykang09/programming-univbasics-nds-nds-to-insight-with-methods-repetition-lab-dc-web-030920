@@ -47,6 +47,7 @@ def total_gross(source)
   # return the total
   director_names = list_of_directors(source)
   
+  
   grand_total = 0 
   index = 0 
   
